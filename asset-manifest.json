@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.9951c295.css",
+    "main.js": "/my-portfolio/static/js/main.e5cff76d.js",
+    "static/media/4_A_p.png": "/my-portfolio/static/media/4_A_p.0e29ca1eba83be8e8452.png",
+    "static/media/3_A_p.png": "/my-portfolio/static/media/3_A_p.8696475fc2b7a91db97d.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/my-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/2_A_p.png": "/my-portfolio/static/media/2_A_p.2f67cb5c5f7f22cf642e.png",
+    "static/media/mo_A_3.png": "/my-portfolio/static/media/mo_A_3.34ebdf2a3e7a319b8bf5.png",
+    "static/media/resume.pdf": "/my-portfolio/static/media/resume.573a071db61f8ec1dbc4.pdf",
+    "static/media/fontawesome-webfont.eot": "/my-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/my-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/mo_A_2.png": "/my-portfolio/static/media/mo_A_2.1d3bf6dd3cebbc0612c1.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/my-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/1_A_p.png": "/my-portfolio/static/media/1_A_p.2d6d32f999bb8349a6ce.png",
+    "static/media/nodejs-icon.jpg": "/my-portfolio/static/media/nodejs-icon.8661bbe0ff491e1c8cac.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/my-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/bg.jpg": "/my-portfolio/static/media/bg.fc2130c1ca8d6c8b5fe4.jpg",
+    "static/media/bg-img.svg": "/my-portfolio/static/media/bg-img.61e5297f5ee156c61a08.svg",
+    "static/media/react-icon.png": "/my-portfolio/static/media/react-icon.86c8d9eba03e29814d2a.png",
+    "static/media/mo_A_1.png": "/my-portfolio/static/media/mo_A_1.30a82449d06092543843.png",
+    "static/media/nodejs-icon.png": "/my-portfolio/static/media/nodejs-icon.007e99f68b718e476aba.png",
+    "static/media/vscode-icon.png": "/my-portfolio/static/media/vscode-icon.ce637e60ea8d930e6547.png",
+    "static/media/icon.png": "/my-portfolio/static/media/icon.b1b631350cb7eec01056.png",
+    "static/media/figma-icon.png": "/my-portfolio/static/media/figma-icon.72fbc535ebe253a5dbc4.png",
+    "static/media/html-icon.png": "/my-portfolio/static/media/html-icon.6e930594286d8afe4c79.png",
+    "static/media/css-icon.png": "/my-portfolio/static/media/css-icon.463e319bad8e0edf1ef7.png",
+    "static/media/express-icon.png": "/my-portfolio/static/media/express-icon.b44f5a4b0ab040328aac.png",
+    "static/media/arrow-left.png": "/my-portfolio/static/media/arrow-left.58c1d308497d95da1008.png",
+    "static/media/bootstrap-icon.png": "/my-portfolio/static/media/bootstrap-icon.268c4375260420e8d982.png",
+    "static/media/js-icon.png": "/my-portfolio/static/media/js-icon.3dfb665e058d08c99f28.png",
+    "static/media/icon.jpg": "/my-portfolio/static/media/icon.85a962c41beb0f0bc010.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.9951c295.css.map": "/my-portfolio/static/css/main.9951c295.css.map",
+    "main.e5cff76d.js.map": "/my-portfolio/static/js/main.e5cff76d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9951c295.css",
+    "static/js/main.e5cff76d.js"
+  ]
+}
