@@ -27,7 +27,8 @@ html {
     height:70px;
     /* border:1px solid white; */
     /* background:#181a1b; */
-    background: #26292B;
+    /* background: #26292B; */
+    background: transparent;
 
     z-index: 3;
 }
@@ -78,19 +79,19 @@ html {
 
 .main-div .home-div{
     position:absolute;
-    top:70px;
+    top:0;
     width:100%;
     height:100vh;
     background: #26292B;
-    /* background: url('./imgs/bg.jpg');
+    background: url('./imgs/bg-2.svg');
     background-size: 100% 100%;
     background-position:center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 }
 
 .main-div .home-div #body-div{
     position:absolute;
-    top:20%;
+    top:30%;
     left:30%;
     width:40%;
     height:60%;
@@ -101,7 +102,7 @@ html {
 .main-div .home-div #body-div #pic-div{
     position:absolute;
     top:2%;
-    left:34%;
+    left:33.5%;
     width:35%;
     height:40%;
     border:1px solid white;
@@ -183,7 +184,8 @@ html {
     height: 100%;
     width: 100%;
     border-left:2px solid #fc6d6d;
-    background:#26292B;
+    /* background:#26292B; */
+    background: #06121D;
     animation: typing 1.5s steps(9) infinite;
 }
 
@@ -615,6 +617,52 @@ html {
     left:55%;
 }
 
+.main-div .educ-div section .container .card #info-div{
+    position:absolute;
+    bottom:5%;
+    left:5%;
+    width:90%;
+    height:75%;
+    /* border:1px solid white; */
+    border-radius: 15px;
+}
+
+.main-div .educ-div section .container .card #info-div p{
+    position:absolute;
+    top:10%;
+    left:0;
+    width:100%;
+    height: 70%;
+    /* border:1px solid white; */
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size :0.91rem;
+
+}
+
+.main-div .educ-div section .container .card #info-div p span{
+    margin-left:15px;
+}
+
+.main-div .educ-div section .container .card #info-div #tools{
+    position:absolute;
+    bottom:10%;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    /* border:1px solid red; */
+    color:white;
+}
+
+.main-div .educ-div section .container .card #info-div #tools h3{
+    margin-left:5px;
+    margin-right: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+}
+
 
 .main-div .educ-div section .container .card .box{
     position:absolute;
@@ -641,7 +689,7 @@ html {
 }
 
 .main-div .educ-div section .container .card .box:hover{
-    transform: translateY(-30px);
+    transform: translateY(-170px);
     box-shadow: 0 40px 70px rgba(0,0,0,0.5);
 }
 
@@ -963,7 +1011,7 @@ desktop: 1200px; */
     }
 
     .main-div .home-div{
-        top:60px;
+        top:0;
     }
 
     .main-div .home-div #body-div{

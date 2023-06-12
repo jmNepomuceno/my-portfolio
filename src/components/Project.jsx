@@ -119,7 +119,7 @@ class Project extends React.Component {
         }
     }
     render() { 
-        console.log(this.state.display_PC.pc_A_1)
+        // console.log(this.state.display_PC.pc_A_1)
         // font-family:Verdana, Geneva, Tahoma, sans-serif;
     return (
             <div className='educ-div' id="educ-id">
@@ -129,6 +129,17 @@ class Project extends React.Component {
 
                     <div className='container'>
                         <div className='card'>
+                            <div id='info-div'>
+                                <p>
+                                    <span>A </span>website thesis project that will predict or compute the user's next
+                                    blood glucose level based on his or her food intake and recent blood sugar level.  
+                                </p>
+                                <div id='tools'>
+                                    <h3>React</h3>
+                                    <h3>Node.js</h3>
+                                    <h3>MySQL</h3>
+                                </div>
+                            </div>
                             <div className='box'>
                                 <div className='content'>
                                     <h2 id="num-id">01</h2>
@@ -143,6 +154,17 @@ class Project extends React.Component {
                         </div>
 
                         <div className='card'>
+                            <div id='info-div'>
+                                <p>
+                                    <span>A </span> calendar scheduler for the user, whether to set a goal, task, meetings, etc.
+
+                                </p>
+                                <div id='tools'>
+                                    <h3>HTML</h3>
+                                    <h3>CSS</h3>
+                                    <h3>React</h3>
+                                </div>
+                            </div>
                             <div className='box'>
                                 <div className='content'>
                                     <h2 id="num-id">02</h2>
@@ -155,6 +177,18 @@ class Project extends React.Component {
                         </div>
 
                         <div className='card'>
+                            <div id='info-div'>
+                                <p>
+                                    <span>A </span> simple inventory management system. Mainly for borrowing and returning items. It can also
+                                    output a receipt for every item borrowed.
+
+                                </p>
+                                <div id='tools'>
+                                    <h3>HTML</h3>
+                                    <h3>CSS</h3>
+                                    <h3>React</h3>
+                                </div>
+                            </div>
                             <div className='box'>
                                 <div className='content'>
                                     <h2 id="num-id">03</h2>
@@ -167,6 +201,19 @@ class Project extends React.Component {
                         </div>
 
                         <div className='card'>
+                            <div id='info-div'>
+                                <p>
+                                    <span>A </span> practice project for node.js and fetching data using 
+                                    the list of every student in Iskolar ng Bataan.
+
+                                </p>
+                                <div id='tools'>
+                                    <h3>HTML</h3>
+                                    <h3>CSS</h3>
+                                    <h3>EJS</h3>
+                                    <h3>Node.js</h3>
+                                </div>
+                            </div>
                             <div className='box'>
                                 <div className='content'>
                                     <h2 id="num-id">04</h2>
