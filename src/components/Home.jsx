@@ -9,7 +9,7 @@ function Home() {
         <div className='home-div' id="home-id">
             <div id='body-div'> 
                 <div id="pic-div">
-
+                    <img id="chibi-img" src={require('../imgs/hehe.png')} alt="icon-img" />
                 </div>
 
                 <h2>Hi, I'm <span>JM Nepomuceno</span></h2>

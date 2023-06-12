@@ -147,7 +147,7 @@ class Project extends React.Component {
                                     <h4 id="proj-h4">Blood Glucose Regulator</h4>
                                     <button id="preview-btn" onClick={() => this.handlePreview(1)}>Preview</button>
                                     {/* <Link to="http:www.google.com"><button id="code-btn">Code</button></Link> */}
-                                    <a id="code-btn" href="https://www.google.com/">Code</a>
+                                    <a id="code-btn" href="https://github.com/jmNepomuceno/blood-glucose-regulator">Code</a>
 
                                 </div>
                             </div>
