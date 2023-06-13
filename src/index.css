@@ -1371,6 +1371,48 @@ desktop: 1200px; */
     .main-div .educ-div section .container{
         height:65%;
     }
+
+    .main-div .educ-div section .container .card #info-div{
+        position:absolute;
+        bottom:5%;
+        left:10%;
+        width:80%;
+        height:75%;
+        /* border:1px solid white; */
+        border-radius: 15px;
+    }
+    
+    .main-div .educ-div section .container .card #info-div p{
+        font-size :0.5rem;
+    
+    }
+    
+    .main-div .educ-div section .container .card #info-div p span{
+        margin-left:15px;
+    }
+    
+    .main-div .educ-div section .container .card #info-div #tools{
+        position:absolute;
+        bottom:10%;
+        left:0;
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        /* border:1px solid red; */
+        color:white;
+    }
+    
+    .main-div .educ-div section .container .card #info-div #tools h3{
+        margin-left:5px;
+        margin-right: 5px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.5rem;
+    }
+
+    .main-div .educ-div section .container .card #info-div #tools h3:nth-child(4){
+        font-size: 0.40rem;
+    }
     
     .main-div .educ-div section .container .card .box .content #num-id{
         font-size: 2.5rem;
@@ -1448,4 +1490,6 @@ desktop: 1200px; */
         border-radius: 25px;
     
     }
+
+    
 }
