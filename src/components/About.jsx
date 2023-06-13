@@ -7,7 +7,7 @@ function About() {
                 <h2>About Me</h2>
                 <hr/>
                 <p>
-                    <span>I'm a </span>web developer, mainly using React as the framework for creating front-end designs and node.js for back-end services. 
+                    <span>I'm a </span>computer science student, with the skill of developing websites using React as the framework for creating front-end designs and node.js for back-end services. 
                     <br/>
                     <br/>
                     <span>I </span> used most of my time and passion in creating websites, whether it's personal or project-based websites.

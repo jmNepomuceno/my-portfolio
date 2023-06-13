@@ -22,7 +22,7 @@ function Contact() {
                         </li>
 
                         <li>
-                            <a href="mailto: johnmarvinnepomuceno@gmail.com"><button><i class="fa fa-envelope"></i></button></a>
+                            <a href="mailto: johnmarvinnepomuceno@gmail.com"><button><i className="fa fa-envelope"></i></button></a>
                         </li>
                     </ul>
                 </div>

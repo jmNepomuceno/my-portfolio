@@ -18,7 +18,7 @@ class App extends Component {
     }
 
     listenScrollEvent = e => {
-        console.log(window.scrollY)
+        // console.log(window.scrollY)
         if (window.scrollY > 600 && window.scrollY <1199) {
           this.setState({background: '#2E3239'})
         } 
