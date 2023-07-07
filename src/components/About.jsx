@@ -1,6 +1,8 @@
 import React from 'react';
 import resume from '../docx/resume.pdf'
 function About() {
+    const window_width = window.innerWidth
+    let display = (window_width <= 770) ? "none" : "flex"
     return (
         <div className='about-div' id="about-id">
             <section>
@@ -19,6 +21,9 @@ function About() {
                     <a href={resume}><button id="resume-btn">Resume</button></a>
                 </div>
             </section>
+
+            <img style={{display:display}} id="about-img" src={require('../imgs/about_me.png')} alt="about-me-img" />
+            
         </div>
     );
 }

@@ -257,8 +257,8 @@ html {
 
 .main-div .about-div section{
     position:absolute;
-    top:20%;
-    left:25%;
+    top:25%;
+    left:5%;
     width:50%;
     height: 50%;
     /* border:1px solid white; */
@@ -267,7 +267,7 @@ html {
 .main-div .about-div section h2{
     position:absolute;
     top:5%;
-    left:40%;
+    left:5%;
     color:white;
     /* font-family:Arial, Helvetica, sans-serif; */
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -277,7 +277,7 @@ html {
 .main-div .about-div section hr{
     position:absolute;
     top:15%;
-    left:41.6%;
+    left:5%;
     width:100px;
     height: 10px;
     background: #5f7adb;
@@ -286,19 +286,23 @@ html {
 
 .main-div .about-div section p{
     position: absolute;
-    top:25%;
+    top:27%;
     left:5%;
-    width:90%;
+    width:80%;
     height: 45%;
     color:white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
+    font-size:0.9rem;
+    /* font-style: justify; */
+    /* border:1px solid white; */
+
 }
 
 .main-div .about-div section #medias-div{
     position:absolute;
     bottom:10%;
-    right:5%;
+    left:5%;
     width:55%;
     height: 11%;
     /* border:1px solid white; */
@@ -321,7 +325,15 @@ html {
 }
 
 .main-div .about-div section p span{
-    margin-left:25px;
+    /* margin-left:25px; */
+}
+
+.main-div .about-div #about-img{
+    position:absolute;
+    top:25%;
+    right:5%;
+    width:40%;
+    height: 50%;
 }
 
 .main-div .skills-div{
@@ -636,14 +648,14 @@ html {
 
 .main-div .educ-div section .container .card #info-div p{
     position:absolute;
-    top:17%;
+    top:25%;
     left:0;
     width:100%;
     height: 70%;
     /* border:1px solid white; */
     color:white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size :0.91rem;
+    font-size :0.8rem;
 
 }
 
@@ -653,7 +665,7 @@ html {
 
 .main-div .educ-div section .container .card #info-div #tools{
     position:absolute;
-    bottom:10%;
+    bottom:5%;
     left:0;
     width:100%;
     display:flex;
@@ -661,6 +673,11 @@ html {
     align-items: center;
     /* border:1px solid red; */
     color:white;
+}
+
+.main-div .educ-div section .container .card #info-div #tools img{
+    width:25px;
+    height: 25px;
 }
 
 .main-div .educ-div section .container .card #info-div #tools h3{
@@ -737,6 +754,23 @@ html {
     position:absolute;
     bottom:5%;
     left:7%;
+    width:35%;
+    height: 15%;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom right, #a2b2ee, #5f7adb);
+    border:none;
+    color:#f2f2f2;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:0.9rem;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.main-div .educ-div section .container .card .box .content #video-btn{
+    position:absolute;
+    bottom:25%;
+    left:33%;
     width:35%;
     height: 15%;
     cursor:pointer;
@@ -1090,22 +1124,32 @@ desktop: 1200px; */
         left:10%;
         width:80%;
         height: 70%;
+        border:1px solid white;
     }
 
     .main-div .about-div section h2{
-        left:33%;
+        left:30%;
     }
 
     .main-div .about-div section hr{
         top:12%;
-        left:35.5%;
+        left:33.5%;
     }
 
     .main-div .about-div section p{
-        top:20%;
+        top:25%;
+        left:10%;
         height: 65%;
-        font-size:0.9rem;
+        font-size:0.8rem;
+        text-align: justify;
+        /* border:1px solid white; */
+
     }
+
+    .main-div .about-div section p span{
+        /* margin-left:25px; */
+    }
+    
 
     .main-div .about-div section #medias-div{
         bottom:5%;
@@ -1118,7 +1162,7 @@ desktop: 1200px; */
     .main-div .about-div section #medias-div #resume-btn{
         position:absolute;
         top:0;
-        left:20%;
+        left:33%;
         width:50%;
         height: 100%;
         cursor:pointer;
@@ -1343,7 +1387,7 @@ desktop: 1200px; */
     }
     
     .main-div .educ-div section{
-        top:0;
+        top:5%;
         left:2%;
         width:96%;
         height: 60%;
@@ -1355,7 +1399,8 @@ desktop: 1200px; */
         top:5%;
         left:5%;
         color:white;
-        font-family:Verdana, Geneva, Tahoma, sans-serif
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
     }
     
     .main-div .educ-div section hr{
@@ -1402,6 +1447,11 @@ desktop: 1200px; */
         /* border:1px solid red; */
         color:white;
     }
+
+    .main-div .educ-div section .container .card #info-div #tools img{
+        width:15px;
+        height: 15px;
+    }
     
     .main-div .educ-div section .container .card #info-div #tools h3{
         margin-left:5px;
@@ -1415,23 +1465,40 @@ desktop: 1200px; */
     }
     
     .main-div .educ-div section .container .card .box .content #num-id{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     
     .main-div .educ-div section .container .card .box .content #type-h3{
-        font-size:1rem;
+        font-size:0.8rem;
     }
     
     .main-div .educ-div section .container .card .box .content #proj-h4{
-        font-size:0.8rem;
+        font-size:0.6rem;
     }
     
     .main-div .educ-div section .container .card .box .content #preview-btn{
         font-size:0.5rem;
+        width:35%;
+        height: 12%;
+
     }
     
     .main-div .educ-div section .container .card .box .content #code-btn{
         font-size:0.5rem;
+        height: 12%;
+        line-height: 20px;
+    }
+
+    .main-div .educ-div section .container .card .box .content #video-btn{
+        bottom:20%;
+        font-size:0.5rem;
+        width:35%;
+        height: 12%;
+    }
+
+    .main-div .educ-div section .container .card .box:hover{
+        transform: translateY(-120px);
+        box-shadow: 0 40px 70px rgba(0,0,0,0.5);
     }
     
     .main-div .educ-div aside{

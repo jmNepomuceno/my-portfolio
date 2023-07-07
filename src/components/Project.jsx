@@ -1,4 +1,6 @@
 import React from 'react';
+import resume from '../docx/blood.mp4'
+import isko from '../docx/isko.mp4';
 
 class Project extends React.Component {
     constructor(props){
@@ -135,9 +137,10 @@ class Project extends React.Component {
                                     blood glucose level based on his or her food intake and recent blood sugar level.  
                                 </p>
                                 <div id='tools'>
-                                    <h3>React</h3>
-                                    <h3>Node.js</h3>
-                                    <h3>MySQL</h3>
+                                    <img src={require('../imgs/react-icon.png')} alt="icon-img" />
+                                    <img src={require('../imgs/nodejs-icon.jpg')} alt="icon-img" />
+                                    <img src={require('../imgs/mysql-icon.png')} alt="icon-img" />
+
                                 </div>
                             </div>
                             <div className='box'>
@@ -145,6 +148,7 @@ class Project extends React.Component {
                                     <h2 id="num-id">01</h2>
                                     <h3 id="type-h3">Case Study</h3>
                                     <h4 id="proj-h4">Blood Glucose Regulator</h4>
+                                    <a href={resume}><button id="video-btn">Video</button></a>
                                     <button id="preview-btn" onClick={() => this.handlePreview(1)}>Preview</button>
                                     {/* <Link to="http:www.google.com"><button id="code-btn">Code</button></Link> */}
                                     <a id="code-btn" href="https://github.com/jmNepomuceno/blood-glucose-regulator">Code</a>
@@ -160,9 +164,9 @@ class Project extends React.Component {
 
                                 </p>
                                 <div id='tools'>
-                                    <h3>HTML</h3>
-                                    <h3>CSS</h3>
-                                    <h3>React</h3>
+                                    <img src={require('../imgs/html-icon.png')} alt="icon-img" />
+                                    <img src={require('../imgs/css-icon.png')} alt="icon-img" />
+                                    <img src={require('../imgs/react-icon.png')} alt="icon-img" />
                                 </div>
                             </div>
                             <div className='box'>
@@ -170,6 +174,7 @@ class Project extends React.Component {
                                     <h2 id="num-id">02</h2>
                                     <h3 id="type-h3">Case Study</h3>
                                     <h4 id="proj-h4">Get Set GOal</h4>
+                                    <a href={"https://jmnepomuceno.github.io/stm-web/"}><button id="video-btn">URL</button></a>
                                     <button id="preview-btn" onClick={() => this.handlePreview(2)}>Preview</button>
                                     <a id="code-btn" href="https://github.com/jmNepomuceno/stm-web">Code</a>
                                 </div>
@@ -179,14 +184,14 @@ class Project extends React.Component {
                         <div className='card'>
                             <div id='info-div'>
                                 <p>
-                                    <span>A </span> simple inventory management system. Mainly for borrowing and returning items. It can also
+                                    <span>An </span> inventory management website. Mainly for borrowing and returning items. It can also
                                     output a receipt for every item borrowed.
 
                                 </p>
                                 <div id='tools'>
-                                    <h3>HTML</h3>
-                                    <h3>CSS</h3>
-                                    <h3>React</h3>
+                                    <img src={require('../imgs/html-icon.png')} alt="icon-img" />
+                                    <img src={require('../imgs/css-icon.png')} alt="icon-img" />
+                                    <img src={require('../imgs/react-icon.png')} alt="icon-img" />
                                 </div>
                             </div>
                             <div className='box'>
@@ -194,6 +199,7 @@ class Project extends React.Component {
                                     <h2 id="num-id">03</h2>
                                     <h3 id="type-h3">Solo Project</h3>
                                     <h4 id="proj-h4">Inventory Management</h4>
+                                    <a href={"https://jmnepomuceno.github.io/re-inventory-mw/"}><button id="video-btn">URL</button></a>
                                     <button id="preview-btn" onClick={() => this.handlePreview(3)}>Preview</button>
                                     <a id="code-btn" href="https://github.com/jmNepomuceno/re-inventory-mw">Code</a>
                                 </div>
@@ -208,10 +214,10 @@ class Project extends React.Component {
 
                                 </p>
                                 <div id='tools'>
-                                    <h3>HTML</h3>
-                                    <h3>CSS</h3>
-                                    <h3>EJS</h3>
-                                    <h3>Node.js</h3>
+                                    <img src={require('../imgs/html-icon.png')} alt="icon-img" />
+                                    <img src={require('../imgs/css-icon.png')} alt="icon-img" />
+                                    <img src={require('../imgs/ejs-icon.png')} alt="icon-img" />
+                                    <img src={require('../imgs/nodejs-icon.jpg')} alt="icon-img" />
                                 </div>
                             </div>
                             <div className='box'>
@@ -219,6 +225,7 @@ class Project extends React.Component {
                                     <h2 id="num-id">04</h2>
                                     <h3 id="type-h3">Solo Project</h3>
                                     <h4 id="proj-h4">Iskolar ng Bataan User ID</h4>
+                                    <a href={isko}><button id="video-btn">Video</button></a>
                                     <button id="preview-btn" onClick={() => this.handlePreview(4)}>Preview</button>
                                     <a id="code-btn" href="https://github.com/jmNepomuceno/iskolarUserID">Code</a>
                                 </div>
