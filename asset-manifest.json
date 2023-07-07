@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.07b305cf.css",
-    "main.js": "/my-portfolio/static/js/main.ece93d53.js",
+    "main.js": "/my-portfolio/static/js/main.348b533b.js",
     "static/media/isko.mp4": "/my-portfolio/static/media/isko.56c83932fdcbb96f849b.mp4",
     "static/media/blood.mp4": "/my-portfolio/static/media/blood.fc5bda793a75cb55009e.mp4",
     "static/media/4_A_p.png": "/my-portfolio/static/media/4_A_p.0e29ca1eba83be8e8452.png",
     "static/media/3_A_p.png": "/my-portfolio/static/media/3_A_p.8696475fc2b7a91db97d.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/my-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/resume.pdf": "/my-portfolio/static/media/resume.b11a4c7d3999a1c277bc.pdf",
     "static/media/2_A_p.png": "/my-portfolio/static/media/2_A_p.2f67cb5c5f7f22cf642e.png",
     "static/media/mo_A_3.png": "/my-portfolio/static/media/mo_A_3.34ebdf2a3e7a319b8bf5.png",
-    "static/media/resume.pdf": "/my-portfolio/static/media/resume.573a071db61f8ec1dbc4.pdf",
     "static/media/fontawesome-webfont.eot": "/my-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/my-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/mo_A_2.png": "/my-portfolio/static/media/mo_A_2.1d3bf6dd3cebbc0612c1.png",
@@ -39,10 +39,10 @@
     "static/media/bg-2.svg": "/my-portfolio/static/media/bg-2.7b3653d983767d8f16aa.svg",
     "index.html": "/my-portfolio/index.html",
     "main.07b305cf.css.map": "/my-portfolio/static/css/main.07b305cf.css.map",
-    "main.ece93d53.js.map": "/my-portfolio/static/js/main.ece93d53.js.map"
+    "main.348b533b.js.map": "/my-portfolio/static/js/main.348b533b.js.map"
   },
   "entrypoints": [
     "static/css/main.07b305cf.css",
-    "static/js/main.ece93d53.js"
+    "static/js/main.348b533b.js"
   ]
 }
