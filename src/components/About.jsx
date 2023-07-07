@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../docx/resume.pdf'
+import resume from '../docx/resume_nepomuceno_updated.pdf'
 function About() {
     const window_width = window.innerWidth
     let display = (window_width <= 770) ? "none" : "flex"
