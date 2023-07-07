@@ -1124,7 +1124,7 @@ desktop: 1200px; */
         left:10%;
         width:80%;
         height: 70%;
-        border:1px solid white;
+        /* border:1px solid white; */
     }
 
     .main-div .about-div section h2{
